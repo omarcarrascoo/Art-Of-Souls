@@ -1,0 +1,45 @@
+.painting{
+    height: 87vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.painting__container{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.painting__info{
+    width: 50%;
+    color: #f5f5f5;
+}
+.painting__text{
+    margin-bottom: 80px;
+}
+.painting__text h1{
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.painting__text p{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.cartBtn{
+    margin-top: 20px;
+}
+.cartBtn button{
+    background-color: #a94949;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 40px;
+}
+.cartBtn button a{
+    color: #f5f5f5;
+    text-decoration: none;
+}
+   
+.painting__img{
+    width: 50%;
+}

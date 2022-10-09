@@ -1,0 +1,38 @@
+.header{
+    width: 100%;
+    background: #151515;
+    padding: 10px 0;
+    color: #dadada;
+}
+.header__container{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+.logo{
+    width: 150px;
+}
+.logo img{
+    width: 100%;
+}
+.main__nav ul{
+    display: flex;
+}
+.main__nav ul li{
+    list-style: none;
+}
+.main__nav ul li a{
+    text-decoration: none;
+    color: #dadada;
+    margin: 27px;
+}
+.icons{
+    display: flex;
+}
+.icon{
+    margin: 10px;
+    font-size: 25px;
+}
+

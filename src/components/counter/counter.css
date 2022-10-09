@@ -1,0 +1,51 @@
+.card__options__container{
+    display: flex;
+    width: 145px;
+    justify-content: space-between;
+}
+.card__options__container button{
+   border: none;
+   background-color: #a94949;
+   color: #f2f2f2;
+   border-radius: 50%;
+   width: 40px;
+   height: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.card__addCart{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.card__addCart button{
+    background: #a94949;
+    border: none;
+    padding: 12px 10px; 
+    border-radius: 5px;
+    color: #f2f2f2;
+}
+.card__addCart button a{
+    text-decoration: none;
+    color: #f2f2f2;
+}
+.hide{
+    visibility: hidden
+}
+
+.ItemList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.btns__container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
