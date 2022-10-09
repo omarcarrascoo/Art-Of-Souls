@@ -16,7 +16,7 @@
                     <ul>
                         <li><Link to='/'>Inicio</Link></li>
                         <li><Link to='/colecciones'>Colecciones</Link></li>
-                        <li><Link to='/cuadro'>Colecciones</Link></li>
+                        <li><Link to='/cuadros'>Cuadros</Link></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </nav>

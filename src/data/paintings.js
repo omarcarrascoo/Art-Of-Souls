@@ -1,4 +1,4 @@
-[
+const paintingsColl=[
     {
         id:101,
         title: "La persistencia de la memoria",
@@ -46,6 +46,7 @@
         year: 1899,
         collection__id: 2,
         img: "https://i.pinimg.com/736x/01/31/82/01318240cb0d05f642fd3362e060bbcf--van-gogh-paintings-monet-paintings.jpg",
-    },
+    }
 
 ]
+export default paintingsColl;
