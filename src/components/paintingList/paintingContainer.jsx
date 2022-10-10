@@ -9,6 +9,7 @@ const PaintingContainer = ()=>{
     useEffect(() => {
         customFetch(paintingsColl, 1200).then((res) =>setArtCollection(res))
     },[])
+    console.log(artCollection)
     return(
        <PaintingList paintings={artCollection}/>
     )

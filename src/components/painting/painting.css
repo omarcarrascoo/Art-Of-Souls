@@ -12,7 +12,7 @@
     justify-content: center;
 }
 .painting__info{
-    width: 50%;
+    width: 30%;
     color: #f5f5f5;
 }
 .painting__text{
@@ -41,5 +41,10 @@
 }
    
 .painting__img{
-    width: 50%;
+    width: 60%;
+    margin-right:40px ;
+}
+.painting__img img{
+    width: 100%; 
+
 }

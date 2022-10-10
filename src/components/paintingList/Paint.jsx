@@ -1,8 +1,10 @@
+import { Link } from 'react-router-dom';
 import './paint.css'
 
 export const Paint = ({art}) =>{
     console.log(art);
     return(
+        <Link to={`/cuadros/${art.id}`}>
         <div className="artCard">
             <div className="artCard__container">
                <div className="artCar__img">
@@ -14,7 +16,7 @@ export const Paint = ({art}) =>{
                     <button className="showMore">Ver mas</button>
                </div>
             </div>
-
         </div>
+        </Link> 
     )
 }
