@@ -4,8 +4,9 @@ import Rutas from './routes/rutas';
 const App = ()=>{
     return(
      <>
-    <Header/>
-    <Rutas/>
+        <Header/>
+        <Rutas/>
+    
     </>
     )
 }

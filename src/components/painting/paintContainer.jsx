@@ -10,7 +10,6 @@ const PaintContainer=() =>{
     useEffect(() => {
         customFetch(paintingsColl, 1200, parseInt(id)).then((res) =>setCuadro(res))
     },[id])
-    console.log(cuadro)
     return(
        <Painting paint={cuadro}/> 
     )

@@ -6,6 +6,8 @@ const paintingsColl=[
         year: 1931,
         collection__id: 1,
         img: "https://i.etsystatic.com/23307663/r/il/71abc7/2524819042/il_fullxfull.2524819042_mu2n.jpg",
+        stock:6,
+        price: 2888
     },
     {
         id:102,
@@ -14,6 +16,9 @@ const paintingsColl=[
         year: 1954,
         collection__id: 1,
         img: "https://emptyeasel.com/wp-content/uploads/2019/03/the-disintegration-of-the-persistence-of-memory-small.jpg",
+        stock:2
+        ,
+        price: 2888
     },
     {
         id:103,
@@ -22,6 +27,9 @@ const paintingsColl=[
         year: 1929,
         collection__id: 1,
         img: "https://historia-arte.com/_/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbSI6WyJcL2FydHdvcmtcL2ltYWdlRmlsZVwvNWQyMWI1YmI0NDUyMS5qcGciLCJyZXNpemUsMjAwMCwyMDAwIl19.i53Bm3Fz7rWOEw9WgYOz3q4zaMImVSSVvhEnW8m9kn4.jpg",
+        stock:5,
+        price: 2888
+
     },
     {
         id:201,
@@ -30,6 +38,8 @@ const paintingsColl=[
         year: 1872,
         collection__id: 2,
         img: "http://3.bp.blogspot.com/-A9B7nQA2p40/TzFH3eBZZ4I/AAAAAAAABaQ/JwKHZFKd9vc/s1600/impresion-sol-naciente-l.jpg",
+        stock:3,
+        price: 2888
     },
     {
         id:202,
@@ -38,6 +48,8 @@ const paintingsColl=[
         year: 1900,
         collection__id: 2,
         img: "https://www.copiamuseo.com/wp-content/uploads/2020/02/el-jardin-del-artista-en-Giverny-de-Monet-1.jpg",
+        stock:2,
+        price: 2888
     },
     {
         id:203,
@@ -46,6 +58,8 @@ const paintingsColl=[
         year: 1899,
         collection__id: 2,
         img: "https://i.pinimg.com/736x/01/31/82/01318240cb0d05f642fd3362e060bbcf--van-gogh-paintings-monet-paintings.jpg",
+        stock:5,
+        price: 2888
     }
 
 ]

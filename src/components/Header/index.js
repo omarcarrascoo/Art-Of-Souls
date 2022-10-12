@@ -25,7 +25,7 @@
                         <Profile />
                     </div>
                     <div className="cart icon">
-                        <Cart />
+                       <Link to='/carrito'><Cart/></Link>
                     </div>
                 </div>
                 

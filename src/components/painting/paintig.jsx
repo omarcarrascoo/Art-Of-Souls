@@ -1,3 +1,4 @@
+import { SetCartBtn } from "../Cart/setCart"
 import ItemCount from "../counter/itemCount"
 import './painting.css'
 
@@ -13,16 +14,14 @@ const Painting = ({paint}) =>{
                     <div className="painting__text">
                         <h1>{paint.title}</h1>
                         <p>{paint.artist}</p>
+                        <p>Precio: ${paint.price}</p>
                         <p className="date">
-                            {
+                           Año de creación: {
                                 paint.year
                             }
                         </p>
                     </div>
-                    <ItemCount/>
-                    <div className="cartBtn">
-                        <button><a href="#">Añadir al carrito</a></button>
-                    </div>
+                    <ItemCount art={paint}/>
                 </div>
             </div>
         </section>

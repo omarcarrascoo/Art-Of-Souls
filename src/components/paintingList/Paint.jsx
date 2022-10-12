@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom';
 import './paint.css'
 
 export const Paint = ({art}) =>{
-    console.log(art);
     return(
         <Link to={`/cuadros/${art.id}`}>
         <div className="artCard">

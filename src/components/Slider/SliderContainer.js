@@ -10,7 +10,6 @@ export const SliderContainer = () =>{
     const[loading, setLoading] = useState(true)
 
     
-   console.log(products);
     return(
         <Slider />
     )
