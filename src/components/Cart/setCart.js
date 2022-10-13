@@ -1,4 +1,5 @@
 import { useContext } from "react"
+import { Link } from "react-router-dom"
 import { DataContext } from "../../context/cartContext"
 import { CountContext } from "../../context/countContext"
 
@@ -11,10 +12,15 @@ export const SetCartBtn = ({cantidad, precio, nombre, id, img}) =>{
     const addCarts =(id)=>{
         
         const product = cartInfo.find(((cuadro)=>cuadro.id===id))
+        const productIndex = cartInfo.findIndex(((cuadro)=>cuadro.id===id))
         const data = cartInfo;
 
         if(product){
-           setContador(product.cantidad)
+            const resetCount = product.cantidad + contador;
+           data.splice(productIndex, 1)
+           setCart([...data,{cantidad:resetCount, img:img, precio:precio, nombre:nombre, id: id}])
+           setContador(1)
+
         }else{
             setCart([...cartInfo,{cantidad:contador, img:img, precio:precio, nombre:nombre, id: id}])
             console.log(cartInfo)
@@ -30,7 +36,7 @@ export const SetCartBtn = ({cantidad, precio, nombre, id, img}) =>{
         <div className="cartBtn">
             <button onClick={()=>{
                 addCarts(id)
-            }}>Añadir al carrito</button>
+            }}><Link to='/cuadros'>Añadir al carrito</Link></button>
         </div>
     )
 }

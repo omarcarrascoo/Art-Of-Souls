@@ -1,14 +1,23 @@
 import { BsPlusLg} from "react-icons/bs";
 import { BsDash} from "react-icons/bs";
-import React, {useContext, useState} from 'react'
+import React, {useContext} from 'react'
 import './counter.css'
-import { SetCartBtn } from "../Cart/setCart";
 import { CountContext } from "../../context/countContext";
+import { DataContext } from "../../context/cartContext";
 
 const ItemCount = ({art}) =>{
-    const stock=art.stock;
-
+    
+    
     const{contador, setContador} = useContext(CountContext)
+    const {cartInfo, setCart} = useContext (DataContext)
+
+    const product = cartInfo.find(((cuadro)=>cuadro.id===art.id))
+    const stock=art.stock;
+    
+
+    console.log(product);
+    console.log(stock)
+    
 
     const addQ = () =>{
         setContador(contador + 1);
@@ -18,7 +27,7 @@ const ItemCount = ({art}) =>{
         }
         let aux = (contador + 1)
 
-        if(aux == stock){
+        if(aux === stock){
             const btnA = document.getElementById("more")
             btnA.classList.add("hide")
 
