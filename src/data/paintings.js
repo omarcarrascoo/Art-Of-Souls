@@ -60,7 +60,38 @@ const paintingsColl=[
         img: "https://i.pinimg.com/736x/01/31/82/01318240cb0d05f642fd3362e060bbcf--van-gogh-paintings-monet-paintings.jpg",
         stock:5,
         price: 2888
-    }
+    },
+    {
+        id:301,
+        title: "El Carnaval de Arlequín",
+        artist: "Joan Miró",
+        year: 1925,
+        collection__id: 3,
+        img: "https://i.pinimg.com/736x/01/31/82/01318240cb0d05f642fd3362e060bbcf--van-gogh-paintings-monet-paintings.jpg",
+        stock:8,
+        price: 3455
+    },
+    {
+        id:401,
+        title: "Guernican",
+        artist: "Pablo Picazo",
+        year: 1925,
+        collection__id: 4,
+        img: "https://artepedrodacruz.files.wordpress.com/2010/12/18-picasso-1907-las-sec3b1oritas-de-avignon.jpg",
+        stock:2,
+        price: 31355
+    },
+    {
+        id:501,
+        title: "La ultima cena",
+        artist: "Leonardo Davinici",
+        year: 1495,
+        collection__id: 5,
+        img: "https://www.lavanguardia.com/files/og_thumbnail/uploads/2019/04/29/5fa51a169f24c.jpeg",
+        stock:2,
+        price: 901355
+    },
+
 
 ]
 export default paintingsColl;

@@ -1,3 +1,4 @@
+import { DelateCartBtn } from '../Cart/delate';
 import './cartView.css'
 export const CartItem =({cartInfo})=>{
     const subTotal = (cartInfo.precio * cartInfo.cantidad);
@@ -16,7 +17,7 @@ export const CartItem =({cartInfo})=>{
                     <br />${subTotal}</p>
             </div>
             <div className="div">
-                <button>Borrar</button>
+                <DelateCartBtn id={cartInfo.id}/>
             </div>
         </div>
     )
