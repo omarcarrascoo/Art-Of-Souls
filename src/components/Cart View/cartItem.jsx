@@ -1,3 +1,4 @@
+import './cartView.css'
 export const CartItem =({cartInfo})=>{
     const subTotal = (cartInfo.precio * cartInfo.cantidad);
     return(
@@ -11,7 +12,8 @@ export const CartItem =({cartInfo})=>{
                 <p className="cantidad">Cantidad seleccinada: {cartInfo.cantidad}</p>
             </div>
             <div className="subtotal">
-                <p>${subTotal}</p>
+                <p>SubTotal: 
+                    <br />${subTotal}</p>
             </div>
             <div className="div">
                 <button>Borrar</button>

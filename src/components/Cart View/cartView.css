@@ -1,4 +1,25 @@
 .cart__card{
     display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: 60px auto;
+    align-items: center;
+}
+.cart__img{
+    width:25%;
+}
+.cart__img img{
     width: 100%;
+}
+.cart__text .title{
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+.cart__text .price{
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+.subtotal{
+    font-size: 28px;
+    color: #a94949;
 }
