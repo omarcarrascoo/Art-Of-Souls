@@ -21,4 +21,24 @@ const customFetch = (data, wait = 0, id) =>{
     )
 }
 
+export const colectionFetch = (data,wait=0,id) =>{
+    return new Promise((res, rej)=>
+        setTimeout(() => {
+            try {
+                if(data){
+                    if (id) {
+                      const product = data.filter((cuadro)=>cuadro.collection__id===id)  
+                      res(product)
+                    } else {
+                        res(data);
+                    } 
+                }
+            }catch(err){
+                rej(err)
+            }
+        }, wait)
+    )
+}
+
+
 export default customFetch;

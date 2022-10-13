@@ -1,14 +1,14 @@
 import { BsPlusLg} from "react-icons/bs";
 import { BsDash} from "react-icons/bs";
-import React, {useState} from 'react'
+import React, {useContext, useState} from 'react'
 import './counter.css'
 import { SetCartBtn } from "../Cart/setCart";
+import { CountContext } from "../../context/countContext";
 
 const ItemCount = ({art}) =>{
     const stock=art.stock;
 
-    const [contador, setContador] = useState(1)
-    
+    const{contador, setContador} = useContext(CountContext)
 
     const addQ = () =>{
         setContador(contador + 1);
@@ -51,7 +51,7 @@ const ItemCount = ({art}) =>{
                 <button onClick={addQ} id="more" ><BsPlusLg /></button>            
             </div>
         </div>
-        <SetCartBtn cantidad={contador} precio={art.price} nombre= {art.title} id={art.id} />
+        
         </>
     )
 }

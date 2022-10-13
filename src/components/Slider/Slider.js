@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import bg from '../../assets/imgs/bg.png'
 
-export const Slider = () =>{
+export const Slider = ({cover}) =>{
     const estilo ={
         backgroundImage:
         `url(${bg})`,
@@ -12,9 +12,9 @@ export const Slider = () =>{
         <section style={estilo} className="cover">
             <div className="cover__container">
                 <div className="text">
-                    <h1>Nombre de la expocisión</h1>
-                    <p>Por: Nombre del Artista</p>
-                   <button className="btn"><Link to='/colecciones'>Ver Coleccion</Link></button>
+                    <h1>{cover.title}</h1>
+                    <p>{cover.artist}</p>
+                   <button className="btn"><Link to='/colecciones'>Ver Colecciones</Link></button>
                 </div>
             </div>
         </section>

@@ -22,6 +22,7 @@ const Painting = ({paint}) =>{
                         </p>
                     </div>
                     <ItemCount art={paint}/>
+                    <SetCartBtn precio={paint.price} nombre= {paint.title} id={paint.id} img={paint.img} />
                 </div>
             </div>
         </section>

@@ -11,7 +11,7 @@ export const Item = ({col}) =>{
             <div className="item__text">
                 <h3>{col.name}</h3>
                 <p>{col.artist}</p>
-                <button><Link to='/collection'>Ver Coleccion</Link></button>
+                <button><Link to={`/colecciones/${col.id}`}>Ver Coleccion</Link></button>
             </div>
         </div>
     )
