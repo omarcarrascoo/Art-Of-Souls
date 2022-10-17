@@ -67,7 +67,7 @@ const paintingsColl=[
         artist: "Joan Miró",
         year: 1925,
         collection__id: 3,
-        img: "https://i.pinimg.com/736x/01/31/82/01318240cb0d05f642fd3362e060bbcf--van-gogh-paintings-monet-paintings.jpg",
+        img: "https://historia-arte.com/_/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbSI6WyJcL2FydHdvcmtcL2ltYWdlRmlsZVwvbWlyYzNiM19jYXJuYXZhbC5qcGciLCJyZXNpemUsMjAwMCwyMDAwIl19.tPXigCRSY99j_ss_3MGhWkXk-6SbN87HFxs42T_OlDM.jpg",
         stock:8,
         price: 3455
     },

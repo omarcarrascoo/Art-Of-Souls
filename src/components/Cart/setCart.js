@@ -23,11 +23,9 @@ export const SetCartBtn = ({cantidad, precio, nombre, id, img}) =>{
 
         }else{
             setCart([...cartInfo,{cantidad:contador, img:img, precio:precio, nombre:nombre, id: id}])
-            console.log(cartInfo)
             setContador(1)
         }
     }
-    console.log(cartInfo)
     
     return(
         // <div className="cartBtn">
